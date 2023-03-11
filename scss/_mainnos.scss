@@ -1,0 +1,121 @@
+/* NOSOTROS 
+
+.contenedorGrillasNos {
+
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "cabeza"
+                         "encabezado"
+                         "historia"
+                         "pie";
+}
+
+.historia {
+width: 100%;
+background-color: #F6FEFF;
+margin: 0, auto;
+padding: 10%;
+grid-area: formulario;
+display: grid;
+grid-template-columns: 1fr;
+grid-template-areas: "ellos"
+                        "texto"
+                        "ellos1"
+                        "texto1";
+justify-items: center;
+}
+
+.historia__texto {
+width: 100%;
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+font-size: 50%;
+color: #015958;
+text-align: center;
+padding: 6%;
+grid-area: texto;
+justify-self: center;
+}
+
+.historia__fotoellos{
+grid-area: ellos;
+width: 100%;
+justify-self: center;
+text-align: center; 
+}
+
+.historia__texto1{
+width: 100%;
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+font-size: 50%;
+color: #015958;
+text-align: center;
+padding: 6%;
+grid-area: texto1;
+justify-self: center;
+}
+
+
+.historia__fotoellos1{
+grid-area: ellos1;
+width: 100%;
+justify-self: center;
+text-align: center;   
+}
+
+*/
+.historia__fotoellos{
+width: 100%;
+
+}
+
+.historia__fotoellos1{
+width: 100%;
+}
+
+.imgellos {
+width: 50%;
+border-radius: 20px;
+}
+    
+.imgellos1 {
+width: 50%;
+border-radius: 20px;
+}
+
+.textNos {
+    font-family: 'Montserrat', sans-serif !important;
+    color: #015958 !important;
+    font-weight: 400;
+    font-size: 80%;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.textNos1 {
+    font-family: 'Montserrat', sans-serif !important;
+    color: #015958 !important;
+    font-weight: 400;
+    font-size: 80%;
+    text-align:center;
+    margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+
+.contenedor_historia{
+    margin-top: 5%;
+    margin-bottom: 5%;
+justify-content: center;
+
+}
+
+.contenedor_historia1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content: center;
+}
+

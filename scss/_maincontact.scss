@@ -1,0 +1,141 @@
+
+/* PAGINA DE CONTACTO */
+.colorForm {
+    background-color: #F6FEFF;
+    width: 100%;
+    }
+    
+    .textoForm {
+    color: #015958;
+    
+    }
+    
+    .h2Form {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 90%;
+    color: #015958;
+    padding: 2%;
+    text-align: center;
+    width: 100%;
+    }
+    
+    .pForm {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 80%;
+    color: #015958;
+    text-align: center;
+    padding: 2%;
+    
+    }
+    
+    .colorcuadroForm {
+    background-color:#015958;
+    text-align: center;
+    border-radius: 20px;
+    width: 100%;
+    }
+
+
+/* SIN BOOTSTRAP
+.contenedorGrillasContact {
+
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "cabeza"
+                         "encabezado"
+                         "formulario"
+                         "pie";
+    }
+*/
+    
+    .formulario {
+    
+    width: 100%;
+    background-color: #F6FEFF;
+    margin: 0, auto;
+    padding: 10%;
+    grid-area: formulario;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "cuadroForm"
+                         "infoH2"
+                         "infoP"
+                         "imgContactos";
+    justify-items: center;
+}
+    
+    .formulario__info {
+    width: 100%;
+    padding: 5%;
+    }
+    
+    .formulario__info h2 {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 80%;
+    color: #015958;
+    grid-area: infoH2;
+    justify-self: center;
+    text-align: center;
+    padding: 2%;
+    
+    }
+    
+    .formulario__info p {
+        width: 100%;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 50%;
+        color: #015958;
+        text-align: center;
+        padding: 2%;
+        grid-area: infoP;
+        justify-self: center;
+    }
+    
+    .formulario__info__contactos {
+    grid-area: imgContactos;
+    width: 100%;
+    justify-self: center;
+    text-align: center;
+    
+    }
+    
+    .formulario__info__contactos__contactosUl{
+    width: 100%;
+    }
+    
+    .formulario__info__contactos__contactosUl__contactosIMG{
+    width: 100%;
+    }
+    
+    
+    
+    .formulario__cuadrosFormulario {
+    width: 80%;
+    padding: 20px;
+    background-color: #015958;
+    border-radius: 20px;
+    text-align: center;
+    grid-area: cuadroForm;
+    
+    }
+    
+    .formulario__cuadrosFormulario__cajas__caja {
+    background-color: #6BBFBF;
+    border: 0;
+    padding: 2%;
+    margin: 2%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 50%;
+    border-radius: 10px;
+    width: 100%;
+    
+    } 

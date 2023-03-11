@@ -1,0 +1,61 @@
+/*COMIENZA EL PIE DE PAGINA
+
+.pie {
+
+    background-color: #53A69D;
+    width: 100%;
+    padding: 2%;
+    margin: 0 auto;
+    grid-area: pie;
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "logoP"
+                         "parrafoP"
+                         "contactosP";
+    justify-items: center;
+    
+    }
+    
+    .pie__padreimgpie {
+    width: 100%;
+    grid-area: logoP;
+    justify-self: center;
+    margin: 10px;
+    
+    }
+    
+    .pie__padreimgpie__imgpie {
+    width: 100%;
+    }
+    
+    .pie__padreParrafoPie {
+    width: 70%;
+    margin: 15px;
+    grid-area: parrafoP;
+    justify-self: center;
+    
+    }
+    
+    .pie__padreParrafoPie__parrafoPie {
+    
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 50%;
+        color: #F6FEFF;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .pie__logospie {
+    width: 50%;
+    grid-area: contactosP;
+    justify-self: center;
+    text-align: center;
+    
+    }
+    
+    .pie__logospie__logopie {
+    width: 100%;
+    }
+*/

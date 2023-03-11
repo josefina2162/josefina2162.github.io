@@ -1,0 +1,167 @@
+/* DESKTOP */
+
+@media screen and (min-width : 1200px) {
+
+.encabezado{
+    .encabezado__imgEncabezado{
+        .encabezado__imgEncabezado__columnas{
+            .encabezado__imgEncabezado__columnas__imgE{
+                width: 60%;
+            }
+        }
+    }
+    .encabezado__TyP{
+        .encabezado__TyP__titulo{
+            width: 100%;
+            .encabezado__TyP__titulo{
+                font-family: 'Gotu', sans-serif;
+                font-weight: 1200;
+                font-size: 150%;
+            }
+                .encabezado__TyP__parrafo{
+                    font-size: 100%;
+                }  
+            }
+        }
+}
+    
+        .pantallaMovil{
+        display: none !important; 
+        }
+    
+    
+    
+    .colorcuadroForm {
+       width: 40%;
+    }
+    
+    .tresBotones {
+        background-color: #015958;
+        border: 0;
+        border-radius: 35%;
+        width: 10%;
+        justify-content: center;
+    }
+    
+    .tresBotones p{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 100%;
+        color:#F6FEFF;
+        width: 100%;
+        margin-top: 6%;
+    
+    }
+
+    #filaD{
+        display: none;
+    }
+
+    #filaR{
+        display: none;
+    }
+
+   .imgcomidaR {
+    width: 25%;
+    }
+
+    .imgcomidaD {
+        width: 25%;
+    }
+
+    .imgcomidaS {
+    width: 25%;
+    }
+    
+    .fuente {
+        font-size: 120%;
+        
+    }
+    
+    .tamañoImgPie {
+    width: 40%;
+    }
+
+/* LOCALES */
+ 
+    .titUbi {
+        margin-top: 5%;
+        font-size: 120%;
+        }
+        
+    .titPar {
+        font-size: 90%;
+        }
+    
+    .map {
+    margin-top: 2%;
+    width: 90%;
+    }
+
+/*SERVICIOS*/
+
+.titServ {
+    margin-top: 20%;
+    font-size: 120%;
+}
+
+.parServ {
+    font-size: 90%;
+}
+
+/*NOSOTROS*/
+.imgellos {
+    width: 50%;
+    border-radius: 20px;
+    }
+        
+.imgellos1 {
+width: 50%;
+border-radius: 20px;
+ }
+
+ .historia__fotoellos{
+    width: 50%;
+    
+    }
+    
+    .historia__fotoellos1{
+    width: 50%;
+    margin-right: 5%;
+    }
+    
+    
+    
+    .textNos {
+        font-family: 'Montserrat', sans-serif !important;
+        color: #015958 !important;
+        font-weight: 400;
+        font-size: 80%;
+        text-align:start;
+        margin-left: 5%;
+        padding-top: 5%;
+    }
+    .textNos1 {
+        font-family: 'Montserrat', sans-serif !important;
+        color: #015958 !important;
+        font-weight: 400;
+        font-size: 80%;
+        text-align:center;
+        margin-bottom: 5%;
+        margin-right: 5%;
+        padding-top: 3%;
+    }
+    
+    .contenedor_historia{
+    margin-left: 3%;
+    }
+    
+    .contenedor_historia1{
+    padding-right: 6%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    }
+    
+}
+    

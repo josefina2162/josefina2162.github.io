@@ -1,0 +1,47 @@
+/* TABLET */ 
+
+@media screen and (min-width : 768px) { 
+
+    main{
+        .encabezado__titulo {   
+        font-family: 'Gotu', sans-serif;
+        font-weight: 1200;
+        font-size: 140%;
+            }
+    
+        .encabezado__parrafo{
+        font-size: 120%;
+        }
+        .pantallaMovil {
+    
+        display: none!important;
+        }
+    }
+    
+    .colorcuadroForm {
+       
+        width: 40%;
+     }
+        
+    
+    
+    .tresBotones {
+        background-color: #015958;
+        border: 0;
+    }
+    
+    .tresBotones p{
+    
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 100%;
+        color:#F6FEFF;
+    
+    }
+    
+    .fuente {
+        font-size: 120%;
+    }
+    
+    }

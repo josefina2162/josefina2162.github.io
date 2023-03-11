@@ -1,0 +1,65 @@
+
+
+.titUbi {
+margin-top: 5%;
+font-family: 'Montserrat', sans-serif !important;
+color: #015958 !important;
+font-weight: 700;
+font-size: 100%;
+}
+
+.titPar {
+font-family: 'Montserrat', sans-serif !important;
+color: #015958 !important;
+font-weight: 400;
+font-size: 80%;
+}
+
+.map {
+margin-top: 10%;
+width: 80%;
+}
+
+/* LOCALES 
+
+.contenedorGrillasLoc {
+
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "cabeza"
+                         "encabezado"
+                         "ubicacion"
+                         "pie";
+}
+
+.ubicacion {
+width: 100%;
+background-color: #F6FEFF;
+margin: 0, auto;
+padding: 10%;
+grid-area: ubicacion;
+display: grid;
+grid-template-columns: 1fr;
+grid-template-areas: "Mapa"
+                    "ubiH2"
+                    "ubiP";
+justify-items: center;
+
+}
+*/
+
+/*
+.ubicacion__mapa {
+padding: 5%;
+grid-area: Mapa;
+width: 100%;
+justify-self: center;
+text-align: center;
+}
+
+.ubicacion__mapa__mapaimg{
+width: 80%;
+}
+*/
