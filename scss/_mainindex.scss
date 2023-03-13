@@ -4,302 +4,124 @@
 
 
 .logonav {
-width: 30%;
+width: map-get($marginyAncho, w-3);
 }
     
 .colornav {
-    background-color: $color-primario;
+    background-color: map-get($colores, secEF);
 }
     
 .tamBoton {
-    width: 80%;
+    width: map-get($marginyAncho, w-8);
+}
+
+/*INDEX, PAGINA PRINCIPAL */
+body{
+    background-color: $color-cuerpo;
 }
 
 .encabezado{
     .encabezado__imgEncabezado{
         .encabezado__imgEncabezado__columnas{
             .encabezado__imgEncabezado__columnas__imgE{
-                width: 60%;
+                width: map-get($marginyAncho, w-6);
             }
         }
     }
     .encabezado__TyP{
-        .encabezado__TyP__titulo{
-            width: 100%;
+         width: map-get($marginyAncho, w-10);
             .encabezado__TyP__titulo{
-                font-family: 'Gotu', sans-serif;
-                font-weight: 1200;
-                font-size: 130%;
-                color: $color-secundario;
-                text-align: center;
+                @include titulosyparrafos(130%, $est1, center);
+                font-family: map-get($tipografias, titulo); 
             }
                 .encabezado__TyP__parrafo{
-                    font-family: 'Montserrat', sans-serif;
-                    color: $color-secundario;
-                    font-size: 80%;
-                    width: 100%;
-                    text-align: center;
+                    @include titulosyparrafos(80%, $est1, center);
+                    font-family: map-get($tipografias, parrafo);
+                    color: map-get($colores, fondo);
+                    width: map-get($marginyAncho, w-10);
                 }  
-            }
+            
         }
 }
 
+.contAnimaciones{
+    overflow: hidden;
+.colorCuerpo{
+    background-color: map-get($colores, fondo);
+    .fuente{
+        @include titulosyparrafos(90%, $est4, center);
+        color: map-get($colores, detalles);
+        font-family: map-get($tipografias, parrafo);
     
-   /* .encabezado__imagen__columnas__img {
-        width: 60%;
-    }*/
-        
-    
-    .encabezado__tituloyparrafo {
-        width: 100%;
     }
-        
-    .encabezado__parrafo{
-            font-family: 'Montserrat', sans-serif;
-            color: $color-secundario;
-            font-size: 80%;
-            width: 100%;
-            text-align: center;
+    .pantallaMovil{
+        .botonS{
+            .colorBoton-1{
+                background-color:map-get($colores, detalles);
+                color: map-get($colores, fondo);
+                font-family: map-get($tipografias, parrafo);
+                font-weight: $est3;
+                width: map-get($marginyAncho, w-3);
+                border: 0;
+                border-radius: 5%;
+            }
+        }
+        .mb-sm-5{
+            .anchoCarrusel{
+                width: map-get($marginyAncho, w-8);
+            }
+        }
+        .botonD {
+            margin-top: map-get($marginyAncho, topybot2);
+            .colorBoton-1{
+                background-color:map-get($colores, detalles);
+                color: map-get($colores, fondo);
+                font-family: map-get($tipografias, parrafo);
+                font-weight: $est3;
+                width: map-get($marginyAncho, w-3);
+                border: 0;
+                border-radius: 5%;
+            }
+        }
+        .mb-sm-3{
+            .anchoCarrusel{
+                width: map-get($marginyAncho, w-8);
+            }
+        }
+        .botonR{
+            margin-top: map-get($marginyAncho, topybot2);
+            .colorBoton-1{
+                background-color:map-get($colores, detalles);
+                color: map-get($colores, fondo);
+                font-family: map-get($tipografias, parrafo);
+                font-weight: $est3;
+                width: map-get($marginyAncho, w-3);
+                border: 0;
+                border-radius: 5%;
+            }
+        }
+        .mb-sm-3{
+            .anchoCarrusel{
+                width: map-get($marginyAncho, w-8);
+            }
+        }
     }
-        
-    .encabezado__titulo {
-            font-family: 'Gotu', sans-serif;
-            font-weight: 1200;
-            font-size: 130%;
-            color: $color-secundario;
-            text-align: center;
-    }
-    
-    .colorCuerpo {
-    background-color:#F6FEFF;
-     }
-    
-    .fuente {
-        color: #015958;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 700;
-        font-size: 90%;
-        text-align: center; 
-    }
-    
-    .colorBoton {
-    background-color:#015958;
-    color: #F6FEFF;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    }
-    
-    .colorBF {
-    background-color: 0,0,0,0;
-    }
+}
+}
 
-    .colorOp {
-    background-color:#53A69D;
-    color:#F6FEFF;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    }
+/*
+.anchoCarrusel {
+    width: map-get($marginyAncho, w-8);
+}*/
 
-
-    #dropDulce{
-        display: none;
-    }
-
-    #dropRegalos{
-        display: none;
-    }
-
-    #carruselRegalos{
+.tresBotones {
     display: none;
-    }
+}
     
-    #carruselDulce{
-        display: none;
-    }
-    
-    .anchoCarrusel {
-    
-    width: 80%;
-    }
-    
-    .textoPie {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 400;
-        font-size: 70%;
-        color: #F6FEFF;
-        text-align: center;
-    }
-    
-    .iconos {
-    padding-bottom: 10%;
-    text-align: center;
-    color:#F6FEFF;
-    width: 50%;
-    }
-    
-    .icono {
-    margin: 2%;
-    text-align: center;
-    
-    }
-    
-    .tresBotones {
-        display: none;
-       
-    }
-    
-    .noPM {
+.noPM {
     display: none;
-    }
-
-/*ENCABEZADO SIN BOOTSTRAP 
-
-.contenedorGrillasIn {
-
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: "cabeza"
-                         "encabezado"
-                         "ubicacion"
-                         "pie";
 }
 
-.encabezado {
-width: 100%;
-padding: 10%;
-grid-area: encabezado;
-display: grid;
-grid-template-columns: 1fr;
-grid-template-areas: "imagenC"
-                     "TyP";
-justify-items: center;
-justify-content: center;
-
-}
-
-.encabezado__imgEncabezado {
-    width: 50%;
-    grid-area: imagenC;
-    justify-self: center;
-
-
-    
-}
-*/ 
-
-/*COMIENZAN LAS TARJETAS
-
-.tarjetas {
-background-color: #F6FEFF;
-padding: 5%;
-grid-area: tarjetas;
-
-display: grid;
-grid-template-columns: 1fr;
-grid-template-areas: "tituloComidas"
-                     "boton1"
-                     "tarjeta1";
-justify-items: center;
-
-
-
-}
-
-.tarjetas h2 {
-font-family: 'Montserrat', sans-serif;
-font-weight: 700;
-font-size: 80%;
-color: #015958;
-padding: 2%;
-text-align: center;
-grid-area: tituloComidas;
-}
-
- .tarjetas .botones1 {
    
-    background-color: #015958;
-    padding: 5% 5%;
-    border: 0;
-    text-align: center;
-    margin: 5%;
-    border-radius: 20px;
-    grid-area: boton1;
-    display: flex;
-}
-
-.botones1 p {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 60%;
-    color:#F6FEFF;
-    padding: 5px, 10px;
-    margin: 10px;
-    display: flex;
-
-}
-
-.bajarOp {
-width: 20%;
-justify-items: end;
-align-items: center;
-}
-
- .tarjetas .botones2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    background-color: #6BBFBF;
-    color:#F6FEFF;
-    padding: 2% 5%;
-    border: 0;
-    text-align: center;
-    margin: 5%;
-    border-radius: 20px;
-    display: none;
-}
-
-.botones2 p {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 60%;
-    color:#F6FEFF;
-    padding: 5px, 5px;
-    margin: 10px;
-}
-
-.padreCard {
-
-width: 60%;
-margin: 0 auto;
-display: flex;
-justify-items: center;
-grid: tarjeta1;
-justify-self: center;
-
-}
-
-.padreCard__card {
-width: 100%;
-background-color: #53A69D;
-margin: 10px;
-padding: 15px;
-border-radius: 40px;
-text-align: center;
-font-family: 'Montserrat', sans-serif;
-font-weight: 400;
-color: #F6FEFF;
-font-size: 50%;
 
 
-}
-
-.padreCard__card__imgcard {
-width: 60%;
-display: inline-block;
-}
-
-.card2 {
-display: none;
-}
-*/

@@ -1,93 +1,21 @@
 
-.CarruselServ{
-width: 60%;
-margin-bottom: 5%;
+.colorCuerpo{
+    background-color: map-get($colores, fondo);
+    .col-sm-8{
+        .titServ {
+            margin-top: map-get($marginyAncho, topybot);
+            @include titulosyparrafos(100%, $est4, center, $color-terciario);
+            font-family: map-get($tipografias, parrafo) !important;
+        }
+        .parServ {
+            @include titulosyparrafos(80%, $est1, center, $color-terciario);
+            font-family: map-get($tipografias, parrafo) !important;
+        }
+    }
+    .col-sm-8{
+        .CarruselServ{
+            width: map-get($marginyAncho, w-6);
+            margin-bottom: map-get($marginyAncho, topybot);
+            }
+    }
 }
-
-.titServ {
-    margin-top: 5%;
-    font-family: 'Montserrat', sans-serif !important;
-    color: #015958 !important;
-    font-weight: 700;
-    font-size: 100%;
-}
-
-.parServ {
-    font-family: 'Montserrat', sans-serif !important;
-    color: #015958 !important;
-    font-weight: 400;
-    font-size: 80%;
-}
-
-/* PAGINA DE SERVICIOS
-
-.contenedorGrillasServs {
-
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: "cabeza"
-                         "encabezado"
-                         "carrucel"
-                         "pie";
-}
-
-.carrucel {
-width: 100%;
-background-color: #F6FEFF;
-margin: 0, auto;
-padding: 10%;
-grid-area: carrucel;
-display: grid;
-grid-template-columns: 1fr;
-grid-template-areas: "productsH2"
-                     "productsIMG"
-                     "productsP";
-justify-items: center;
-
-
-}
-
-.carrucel h2 {
-font-family: 'Montserrat', sans-serif;
-font-weight: 700;
-font-size: 80%;
-color: #015958;
-grid-area: productsH2;
-justify-self: center;
-text-align: center;
-padding: 6%;
-
-}
-
-.carrucel__imagenes {
-width: 100%;
-margin: 0, auto;
-}
-
-.carrucel__imagenes p {
-width: 100%;
-font-family: 'Montserrat', sans-serif;
-font-weight: 400;
-font-size: 50%;
-color: #015958;
-text-align: center;
-padding: 6%;
-grid-area: productsP;
-justify-self: center;
-}
-
-.carrucel__imagenes__imgCarrucel {
-grid-area: productsIMG;
-width: 100%;
-justify-self: center;
-text-align: center;
-}
-
-.carrucel__imagenes__imgCarrucel__servicio1 {
-width: 80%;    
-border-radius: 20px;
-}
-
-*/

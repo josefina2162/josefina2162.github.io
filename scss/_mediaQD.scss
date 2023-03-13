@@ -2,166 +2,244 @@
 
 @media screen and (min-width : 1200px) {
 
-.encabezado{
-    .encabezado__imgEncabezado{
-        .encabezado__imgEncabezado__columnas{
-            .encabezado__imgEncabezado__columnas__imgE{
-                width: 60%;
+    .encabezado{
+        .encabezado__imgEncabezado{
+            .encabezado_imgEncabezado_columnas{
+                .encabezado_imgEncabezadocolumnas_imgE{
+                    width: map-get($marginyAncho, w-6);
+                }
             }
         }
+        .encabezado__TyP{
+            width: map-get($marginyAncho, w-5);
+                .encabezado_TyP_titulo{
+                    @include titulosyparrafos(250%, 700, center);
+                    width: map-get($marginyAncho, w-10);
+                }
+                    .encabezado_TyP_parrafo{
+                        @include titulosyparrafos(100%, 400, center);
+                        
+                    }  
+                }
     }
-    .encabezado__TyP{
-        .encabezado__TyP__titulo{
-            width: 100%;
-            .encabezado__TyP__titulo{
-                font-family: 'Gotu', sans-serif;
-                font-weight: 1200;
-                font-size: 150%;
-            }
-                .encabezado__TyP__parrafo{
-                    font-size: 100%;
-                }  
-            }
+
+    .contAnimaciones{
+        overflow: hidden;
+    .colorCuerpo{
+        background-color: map-get($colores, fondo);
+        .fuente{
+            font-size: 120%;
         }
-}
-    
         .pantallaMovil{
-        display: none !important; 
+            display: none !important;
         }
-    
-    
-    
-    .colorcuadroForm {
-       width: 40%;
+        .botones{
+            margin-left: 2%;
+            margin-top: 2%;
+            .tresBotones {
+                background-color: #015958;
+                border: 0;
+                border-radius: 35%;
+                width: 10%;
+                justify-content: center;
+            }
+            .tresBotones p{
+                @include titulosyparrafos(100%, 600, center);
+                font-family: map-get($tipografias, parrafo);
+                width: map-get($marginyAncho, w-10);
+                margin-top: map-get($marginyAncho, topybot1);
+            
+            }
+        }
+        .noPM{
+            margin-bottom: 5%;
+            
+        .imgcomidaS {
+            width: map-get($marginyAncho, w-2);
+            }
+        }
+        .botones{
+            margin-left: 2%;
+            margin-top: 2%;
+            .tresBotones {
+                background-color: #015958;
+                border: 0;
+                border-radius: 35%;
+                width: 10%;
+                justify-content: center;
+            }
+            .tresBotones p{
+                @include titulosyparrafos(100%, 600, center);
+                font-family: map-get($tipografias, parrafo);
+                width: map-get($marginyAncho, w-10);
+                margin-top: map-get($marginyAncho, topybot1);
+            
+            }
+        }
+        .noPM{
+            margin-bottom: 5%;
+            
+        .imgcomidaD {
+            width: map-get($marginyAncho, w-2);
+            }
+        }
+        .botones{
+            margin-left: 2%;
+            margin-top: 2%;
+            .tresBotones {
+                background-color: #015958;
+                border: 0;
+                border-radius: 35%;
+                width: 10%;
+                justify-content: center;
+            }
+            .tresBotones p{
+                @include titulosyparrafos(100%, 600, center);
+                font-family: map-get($tipografias, parrafo);
+                width: map-get($marginyAncho, w-10);
+                margin-top: map-get($marginyAncho, topybot1);
+            
+            }
+        }
+        .noPM{
+            margin-bottom: 5%;
+            
+        .imgcomidaR {
+            width: map-get($marginyAncho, w-2);
+            }
+        }
     }
-    
-    .tresBotones {
-        background-color: #015958;
-        border: 0;
-        border-radius: 35%;
-        width: 10%;
-        justify-content: center;
-    }
-    
-    .tresBotones p{
-        text-align: center;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;
-        font-size: 100%;
-        color:#F6FEFF;
-        width: 100%;
-        margin-top: 6%;
-    
+}
+   
+.tamañoImgPie {
+width: map-get($marginyAncho, w-4);
+}
+
+
+/*CONTACTO*/
+
+.colorForm {
+    background-color: #F6FEFF;
+    width: map-get($marginyAncho, w-10);
+    .textoForm{
+        color: #015958;
+        .h2Form {
+            @include titulosyparrafos(100%, 700, center, $color-terciario);
+            font-family: map-get($tipografias, parrafo);
+            padding: map-get($marginyAncho, padd);
+            width: map-get($marginyAncho, w-10);
+            }
+        .pForm {
+            width: map-get($marginyAncho, w-10);
+            @include titulosyparrafos(80%, 400, center, $color-terciario);
+            font-family: map-get($tipografias, parrafo);
+            padding: map-get($marginyAncho, padd);
+            }
     }
 
-    #filaD{
-        display: none;
-    }
-
-    #filaR{
-        display: none;
-    }
-
-   .imgcomidaR {
-    width: 25%;
-    }
-
-    .imgcomidaD {
-        width: 25%;
-    }
-
-    .imgcomidaS {
-    width: 25%;
-    }
-    
-    .fuente {
-        font-size: 120%;
+    .formulario__info__contactos{
+        .icono{
+            margin: map-get($marginyAncho, padd);
+            text-align: center;
+        }
         
     }
-    
-    .tamañoImgPie {
-    width: 40%;
+    .colorcuadroForm {
+        width: map-get($marginyAncho, w-4);
+        .formulario__cuadrosFormulario__cajas__caja {
+        background-color: #6BBFBF;
+        border: 0;
+        padding: map-get($marginyAncho, padd);
+        margin: map-get($marginyAncho, padd);
+        @include titulosyparrafos(50%, 400, start, $color-terciario);
+        font-family: map-get($tipografias, parrafo);
+        border-radius: 10px;
+        width: map-get($marginyAncho, w-10);
+        
+        } 
     }
+}
+
 
 /* LOCALES */
- 
-    .titUbi {
-        margin-top: 5%;
-        font-size: 120%;
+.colorCuerpo{
+    .col-sm-8{
+        .map{
+            margin-top: map-get($marginyAncho, padd);
+            width: 90%;
         }
-        
-    .titPar {
-        font-size: 90%;
-        }
-    
-    .map {
-    margin-top: 2%;
-    width: 90%;
     }
+    .col-sm-8{
+        .titUbi{
+            margin-top: map-get($marginyAncho, topybot);
+            font-size: 120%;
+        }
+        .titPar {
+            font-size: 90%;
+            }
+    }
+}
 
 /*SERVICIOS*/
 
-.titServ {
-    margin-top: 20%;
-    font-size: 120%;
-}
-
-.parServ {
-    font-size: 90%;
+.colorCuerpo{
+    background-color: map-get($colores, fondo);
+    .col-sm-8{
+        .titServ {
+            margin-top: 20%;
+            font-size: 120%;
+        }
+        .parServ {
+            font-size: 90%;
+        }
+    }
+    .col-sm-8{
+        .CarruselServ{
+            width: map-get($marginyAncho, w-6);
+            margin-bottom: map-get($marginyAncho, topybot);
+            }
+    }
 }
 
 /*NOSOTROS*/
-.imgellos {
-    width: 50%;
-    border-radius: 20px;
-    }
-        
-.imgellos1 {
-width: 50%;
-border-radius: 20px;
- }
 
- .historia__fotoellos{
-    width: 50%;
-    
+.colorCuerpo{
+    .contenedor_historia{
+        margin-left: 3%;
+          .textNos{
+            @include titulosyparrafos(80%, 400, start, $color-terciario);
+            font-family: map-get($tipografias, parrafo);
+            margin-left: map-get($marginyAncho, topybot);
+            padding-top: map-get($marginyAncho, topybot);
+        }
+        .historia__fotoellos{
+            width: map-get($marginyAncho, w-5);
+          .imgellos {
+            width: map-get($marginyAncho, w-5);
+            border-radius: 20px;
+            }
+        }
     }
-    
-    .historia__fotoellos1{
-    width: 50%;
-    margin-right: 5%;
-    }
-    
-    
-    
-    .textNos {
-        font-family: 'Montserrat', sans-serif !important;
-        color: #015958 !important;
-        font-weight: 400;
-        font-size: 80%;
-        text-align:start;
-        margin-left: 5%;
-        padding-top: 5%;
-    }
-    .textNos1 {
-        font-family: 'Montserrat', sans-serif !important;
-        color: #015958 !important;
-        font-weight: 400;
-        font-size: 80%;
-        text-align:center;
-        margin-bottom: 5%;
-        margin-right: 5%;
+    .contenedor_historia1{
+        padding-right: map-get($marginyAncho, topybot1);
+        margin-top: map-get($marginyAncho, topybot);
+        margin-bottom: 10%;
+      .historia__fotoellos1{
+        width: map-get($marginyAncho, w-5);
+        margin-right: map-get($marginyAncho, topybot);
+        .imgellos1 {
+          width: map-get($marginyAncho, w-5);
+          border-radius: 20px;
+          }
+      }
+      .textNos1 {
+        @include titulosyparrafos(80%, 400, center, $color-terciario);
+        font-family: map-get($tipografias, parrafo);
+        margin-bottom: map-get($marginyAncho, topybot);
+        margin-right: map-get($marginyAncho, topybot);
         padding-top: 3%;
     }
-    
-    .contenedor_historia{
-    margin-left: 3%;
     }
-    
-    .contenedor_historia1{
-    padding-right: 6%;
-    margin-top: 5%;
-    margin-bottom: 10%;
-    }
-    
+  }
+
 }
-    

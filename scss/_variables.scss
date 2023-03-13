@@ -1,22 +1,44 @@
 $color-primario: #53A69D;
 $color-secundario:#F6FEFF;
 $color-terciario:#015958;
+$color-cuerpo: #6BBFBF;
 
+$font-1: 'Gotu', sans-serif;
+$font-2: 'Montserrat', sans-serif;
 
-.colorBoton {
-    background-color:#015958;
-    color: #F6FEFF;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    }
-    
-    .colorBF {
-    background-color: 0,0,0,0;
-    }
+$est1: 400;
+$est2: 500;
+$est3: 600;
+$est4: 700;
 
-    .colorOp {
-    background-color:#53A69D;
-    color:#F6FEFF;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    }
+$marginyAncho:(
+topybot: 5%,
+topybot1: 6%,
+topybot2: 10%,
+padd: 2%,
+w-2:25%,
+w-3: 30%,
+w-4: 40%,
+w-5: 50%,
+w-6: 60%,
+w-8: 80%,
+w-10: 100%
+);
+
+$colores:(
+secEF: $color-primario,
+fondo: $color-secundario,
+detalles: $color-terciario
+);
+
+$tipografias:(
+titulo: $font-1,
+parrafo: $font-2
+);
+
+@mixin titulosyparrafos($tamfuente, $weightfuente, $alineacion:center, $colorF:$color-secundario){
+font-size: $tamfuente;
+font-weight: $weightfuente;
+text-align: $alineacion;
+color: $colorF;
+}
