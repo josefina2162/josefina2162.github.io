@@ -9,7 +9,7 @@
 /* CON BOOTSTRAP */
 /* INDEX*/
 .logonav {
-  width: 30%; }
+  width: 50%; }
 
 .colornav {
   background-color: #53A69D; }
@@ -87,10 +87,6 @@ body {
     .contAnimaciones .colorCuerpo .pantallaMovil .mb-sm-3 .anchoCarrusel {
       width: 80%; }
 
-/*
-.anchoCarrusel {
-    width: map-get($marginyAncho, w-8);
-}*/
 .tresBotones {
   display: none; }
 
@@ -132,7 +128,7 @@ body {
       border: 0;
       padding: 2%;
       margin: 2%;
-      font-size: 50%;
+      font-size: 70%;
       font-weight: 400;
       text-align: start;
       color: #015958;
@@ -217,21 +213,22 @@ body {
 
 /*PIE DE PAGINA*/
 .textoPie {
-  font-size: 70%;
+  font-size: 80%;
   font-weight: 400;
   text-align: center;
   color: #F6FEFF;
   font-family: "Montserrat", sans-serif; }
 
 .iconos {
-  padding-bottom: 10%;
+  margin-bottom: 5%;
   text-align: center;
   color: #F6FEFF;
-  width: 50%; }
+  width: 100%; }
 
 .icono {
-  margin: 2%;
-  text-align: center; }
+  text-align: center;
+  margin: 10%;
+  width: 15%; }
 
 /* TABLET */
 @media screen and (min-width: 768px) {
@@ -259,17 +256,17 @@ body {
 
 /* DESKTOP */
 @media screen and (min-width: 1200px) {
-  .encabezado .encabezado__imgEncabezado .encabezado_imgEncabezado_columnas .encabezado_imgEncabezadocolumnas_imgE {
+  .encabezado .encabezado__imgEncabezado .encabezado__imgEncabezado__columnas .encabezado__imgEncabezado__columnas__imgE {
     width: 60%; }
   .encabezado .encabezado__TyP {
     width: 50%; }
-    .encabezado .encabezado__TyP .encabezado_TyP_titulo {
-      font-size: 250%;
+    .encabezado .encabezado__TyP .encabezado__TyP__titulo {
+      font-size: 180%;
       font-weight: 700;
       text-align: center;
       color: #F6FEFF;
       width: 100%; }
-    .encabezado .encabezado__TyP .encabezado_TyP_parrafo {
+    .encabezado .encabezado__TyP .encabezado__TyP__parrafo {
       font-size: 100%;
       font-weight: 400;
       text-align: center;
@@ -345,8 +342,21 @@ body {
         margin-bottom: 5%; }
         .contAnimaciones .colorCuerpo .noPM .imgcomidaR {
           width: 25%; }
+  .tamañoImgPieCont {
+    width: 20%;
+    margin-bottom: 5%; }
   .tamañoImgPie {
-    width: 40%; }
+    width: 40%;
+    margin-bottom: 5%; }
+  .iconos {
+    margin-bottom: 5%;
+    text-align: center;
+    color: #F6FEFF;
+    width: 15%; }
+  .icono {
+    text-align: center;
+    margin: 10%;
+    width: 100%; }
   /*CONTACTO*/
   .colorForm {
     background-color: #F6FEFF;
@@ -363,7 +373,7 @@ body {
         width: 100%; }
       .colorForm .textoForm .pForm {
         width: 100%;
-        font-size: 80%;
+        font-size: 90%;
         font-weight: 400;
         text-align: center;
         color: #015958;
@@ -379,12 +389,25 @@ body {
         border: 0;
         padding: 2%;
         margin: 2%;
-        font-size: 50%;
+        font-size: 70%;
         font-weight: 400;
         text-align: start;
         color: #015958;
         font-family: "Montserrat", sans-serif;
         border-radius: 10px;
+        width: 100%; }
+  /*ERROR 404*/
+  .errorBody {
+    background-color: #fb957c; }
+    .errorBody .errorConImg {
+      width: 100%; }
+      .errorBody .errorConImg .errorTit {
+        margin-top: 10%;
+        margin-bottom: 10%;
+        color: #2aa55d;
+        text-align: center; }
+      .errorBody .errorConImg .errorImg {
+        margin: 5%;
         width: 100%; }
   /* LOCALES */
   .colorCuerpo .col-sm-8 .map {
@@ -394,7 +417,7 @@ body {
     margin-top: 5%;
     font-size: 120%; }
   .colorCuerpo .col-sm-8 .titPar {
-    font-size: 90%; }
+    font-size: 95%; }
   /*SERVICIOS*/
   .colorCuerpo {
     background-color: #F6FEFF; }
@@ -402,7 +425,7 @@ body {
       margin-top: 20%;
       font-size: 120%; }
     .colorCuerpo .col-sm-8 .parServ {
-      font-size: 90%; }
+      font-size: 95%; }
     .colorCuerpo .col-sm-8 .CarruselServ {
       width: 60%;
       margin-bottom: 5%; }
@@ -410,7 +433,7 @@ body {
   .colorCuerpo .contenedor_historia {
     margin-left: 3%; }
     .colorCuerpo .contenedor_historia .textNos {
-      font-size: 80%;
+      font-size: 90%;
       font-weight: 400;
       text-align: start;
       color: #015958;
@@ -433,7 +456,7 @@ body {
         width: 50%;
         border-radius: 20px; }
     .colorCuerpo .contenedor_historia1 .textNos1 {
-      font-size: 80%;
+      font-size: 90%;
       font-weight: 400;
       text-align: center;
       color: #015958;
@@ -441,3 +464,17 @@ body {
       margin-bottom: 5%;
       margin-right: 5%;
       padding-top: 3%; } }
+
+/* PAGINA DE ERROR 404 */
+.errorBody {
+  background-color: #7ccbfb; }
+  .errorBody .errorConImg {
+    width: 100%; }
+    .errorBody .errorConImg .errorTit {
+      margin-top: 10%;
+      margin-bottom: 10%;
+      color: brown;
+      text-align: center; }
+    .errorBody .errorConImg .errorImg {
+      margin: 5%;
+      width: 100%; }

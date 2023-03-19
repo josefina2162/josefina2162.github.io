@@ -1,21 +1,21 @@
 /*PIE DE PAGINA*/
 
 .textoPie {
-    @include titulosyparrafos(70%, 400, center);
+    @include titulosyparrafos(80%, 400, center);
     font-family: map-get($tipografias, parrafo);
     }
     
     .iconos {
-    padding-bottom: 10%;
+    margin-bottom: 5%;
     text-align: center;
     color:#F6FEFF;
-    width: map-get($marginyAncho, w-5);
+    width: 100%;
     }
     
     .icono {
-    margin: map-get($marginyAncho, padd);
     text-align: center;
-    
+    margin: 10%;
+    width: 15%;
     }
     
   

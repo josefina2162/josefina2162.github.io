@@ -1,26 +1,25 @@
 /* DESKTOP */
 
 @media screen and (min-width : 1200px) {
-
     .encabezado{
         .encabezado__imgEncabezado{
-            .encabezado_imgEncabezado_columnas{
-                .encabezado_imgEncabezadocolumnas_imgE{
+            .encabezado__imgEncabezado__columnas{
+                .encabezado__imgEncabezado__columnas__imgE{
                     width: map-get($marginyAncho, w-6);
                 }
             }
         }
         .encabezado__TyP{
             width: map-get($marginyAncho, w-5);
-                .encabezado_TyP_titulo{
-                    @include titulosyparrafos(250%, 700, center);
+                .encabezado__TyP__titulo{
+                    @include titulosyparrafos(180%, 700, center);
                     width: map-get($marginyAncho, w-10);
                 }
-                    .encabezado_TyP_parrafo{
+                    .encabezado__TyP__parrafo{
                         @include titulosyparrafos(100%, 400, center);
-                        
                     }  
-                }
+                
+            }
     }
 
     .contAnimaciones{
@@ -110,9 +109,28 @@
         }
     }
 }
+
+.tamañoImgPieCont{
+width: 20%;
+margin-bottom: 5%;
+}
    
 .tamañoImgPie {
 width: map-get($marginyAncho, w-4);
+margin-bottom: 5%;
+}
+
+.iconos {
+    margin-bottom: 5%;
+    text-align: center;
+    color:#F6FEFF;
+    width: 15%;
+}
+    
+    .icono {
+    text-align: center;
+    margin: 10%;
+    width: 100%;
 }
 
 
@@ -131,7 +149,7 @@ width: map-get($marginyAncho, w-4);
             }
         .pForm {
             width: map-get($marginyAncho, w-10);
-            @include titulosyparrafos(80%, 400, center, $color-terciario);
+            @include titulosyparrafos(90%, 400, center, $color-terciario);
             font-family: map-get($tipografias, parrafo);
             padding: map-get($marginyAncho, padd);
             }
@@ -151,13 +169,33 @@ width: map-get($marginyAncho, w-4);
         border: 0;
         padding: map-get($marginyAncho, padd);
         margin: map-get($marginyAncho, padd);
-        @include titulosyparrafos(50%, 400, start, $color-terciario);
+        @include titulosyparrafos(70%, 400, start, $color-terciario);
         font-family: map-get($tipografias, parrafo);
         border-radius: 10px;
         width: map-get($marginyAncho, w-10);
         
         } 
     }
+}
+
+/*ERROR 404*/
+.errorBody{
+    background-color: #fb957c ;
+    
+    .errorConImg{
+    width: 100%;
+    
+        .errorTit{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        color:rgb(42, 165, 93);
+        text-align: center;
+        }
+        .errorImg{
+        margin: 5%;
+        width: 100%;
+    }
+  }
 }
 
 
@@ -175,7 +213,7 @@ width: map-get($marginyAncho, w-4);
             font-size: 120%;
         }
         .titPar {
-            font-size: 90%;
+            font-size: 95%;
             }
     }
 }
@@ -190,7 +228,7 @@ width: map-get($marginyAncho, w-4);
             font-size: 120%;
         }
         .parServ {
-            font-size: 90%;
+            font-size: 95%;
         }
     }
     .col-sm-8{
@@ -207,7 +245,7 @@ width: map-get($marginyAncho, w-4);
     .contenedor_historia{
         margin-left: 3%;
           .textNos{
-            @include titulosyparrafos(80%, 400, start, $color-terciario);
+            @include titulosyparrafos(90%, 400, start, $color-terciario);
             font-family: map-get($tipografias, parrafo);
             margin-left: map-get($marginyAncho, topybot);
             padding-top: map-get($marginyAncho, topybot);
@@ -233,7 +271,7 @@ width: map-get($marginyAncho, w-4);
           }
       }
       .textNos1 {
-        @include titulosyparrafos(80%, 400, center, $color-terciario);
+        @include titulosyparrafos(90%, 400, center, $color-terciario);
         font-family: map-get($tipografias, parrafo);
         margin-bottom: map-get($marginyAncho, topybot);
         margin-right: map-get($marginyAncho, topybot);
@@ -241,5 +279,6 @@ width: map-get($marginyAncho, w-4);
     }
     }
   }
+
 
 }

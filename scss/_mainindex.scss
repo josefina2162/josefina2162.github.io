@@ -4,7 +4,7 @@
 
 
 .logonav {
-width: map-get($marginyAncho, w-3);
+width: map-get($marginyAncho, w-5);
 }
     
 .colornav {
@@ -108,11 +108,6 @@ body{
     }
 }
 }
-
-/*
-.anchoCarrusel {
-    width: map-get($marginyAncho, w-8);
-}*/
 
 .tresBotones {
     display: none;

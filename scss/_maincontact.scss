@@ -36,7 +36,7 @@
         border: 0;
         padding: 2%;
         margin: 2%;
-        @include titulosyparrafos(50%, 400, start, $color-terciario);
+        @include titulosyparrafos(70%, 400, start, $color-terciario);
         font-family: map-get($tipografias, parrafo) !important;
         border-radius: 10px;
         width: map-get($marginyAncho, w-10);
