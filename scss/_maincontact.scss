@@ -24,6 +24,8 @@
         .icono{
             margin: 2%;
             text-align: center;
+            color: $color-terciario;
+            width: 30%;
         }
     }
     .colorcuadroForm {
@@ -32,6 +34,7 @@
         border-radius: 20px;
         width: map-get($marginyAncho, w-10);
         .formulario__cuadrosFormulario__cajas__caja {
+        text-decoration: none;
         background-color: map-get($colores, secEF);
         border: 0;
         padding: 2%;

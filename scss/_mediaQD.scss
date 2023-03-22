@@ -159,12 +159,14 @@ margin-bottom: 5%;
         .icono{
             margin: map-get($marginyAncho, padd);
             text-align: center;
+            width: 50%;
         }
         
     }
     .colorcuadroForm {
         width: map-get($marginyAncho, w-4);
         .formulario__cuadrosFormulario__cajas__caja {
+        text-decoration: none;
         background-color: #6BBFBF;
         border: 0;
         padding: map-get($marginyAncho, padd);
@@ -180,23 +182,16 @@ margin-bottom: 5%;
 
 /*ERROR 404*/
 .errorBody{
-    background-color: #fb957c ;
+    background-color:$color-secundario;
     
     .errorConImg{
     width: 100%;
-    
-        .errorTit{
-        margin-top: 10%;
-        margin-bottom: 10%;
-        color:rgb(42, 165, 93);
-        text-align: center;
-        }
-        .errorImg{
+    .errorImg{
         margin: 5%;
-        width: 100%;
+        width: 50%;
     }
-  }
-}
+    }
+    }
 
 
 /* LOCALES */

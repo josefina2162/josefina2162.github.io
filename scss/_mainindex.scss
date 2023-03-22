@@ -70,6 +70,12 @@ body{
             .anchoCarrusel{
                 width: map-get($marginyAncho, w-8);
             }
+            .carousel-control-prev-icon{
+                background-color: #015958 !important;
+            }
+            .carousel-control-next-icon{
+                @extend .carousel-control-prev-icon;
+            }
         }
         .botonD {
             margin-top: map-get($marginyAncho, topybot2);
@@ -84,8 +90,11 @@ body{
             }
         }
         .mb-sm-3{
-            .anchoCarrusel{
+            .anchoCarrusel1{
                 width: map-get($marginyAncho, w-8);
+            }
+            .iconCarru1{
+                background-color: #015958 !important;
             }
         }
         .botonR{
@@ -101,9 +110,13 @@ body{
             }
         }
         .mb-sm-3{
-            .anchoCarrusel{
+            .anchoCarrusel2{
                 width: map-get($marginyAncho, w-8);
-            }
+            
+                .iconCarru2{
+                    background-color: #015958 !important;
+                }
+        }
         }
     }
 }

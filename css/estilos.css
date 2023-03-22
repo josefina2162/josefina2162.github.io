@@ -62,6 +62,8 @@ body {
       border-radius: 5%; }
     .contAnimaciones .colorCuerpo .pantallaMovil .mb-sm-5 .anchoCarrusel {
       width: 80%; }
+    .contAnimaciones .colorCuerpo .pantallaMovil .mb-sm-5 .carousel-control-prev-icon, .contAnimaciones .colorCuerpo .pantallaMovil .mb-sm-5 .carousel-control-next-icon {
+      background-color: #015958 !important; }
     .contAnimaciones .colorCuerpo .pantallaMovil .botonD {
       margin-top: 10%; }
       .contAnimaciones .colorCuerpo .pantallaMovil .botonD .colorBoton-1 {
@@ -72,8 +74,10 @@ body {
         width: 30%;
         border: 0;
         border-radius: 5%; }
-    .contAnimaciones .colorCuerpo .pantallaMovil .mb-sm-3 .anchoCarrusel {
+    .contAnimaciones .colorCuerpo .pantallaMovil .mb-sm-3 .anchoCarrusel1 {
       width: 80%; }
+    .contAnimaciones .colorCuerpo .pantallaMovil .mb-sm-3 .iconCarru1 {
+      background-color: #015958 !important; }
     .contAnimaciones .colorCuerpo .pantallaMovil .botonR {
       margin-top: 10%; }
       .contAnimaciones .colorCuerpo .pantallaMovil .botonR .colorBoton-1 {
@@ -84,8 +88,10 @@ body {
         width: 30%;
         border: 0;
         border-radius: 5%; }
-    .contAnimaciones .colorCuerpo .pantallaMovil .mb-sm-3 .anchoCarrusel {
+    .contAnimaciones .colorCuerpo .pantallaMovil .mb-sm-3 .anchoCarrusel2 {
       width: 80%; }
+      .contAnimaciones .colorCuerpo .pantallaMovil .mb-sm-3 .anchoCarrusel2 .iconCarru2 {
+        background-color: #015958 !important; }
 
 .tresBotones {
   display: none; }
@@ -117,13 +123,16 @@ body {
       padding: 2%; }
   .colorForm .formulario__info__contactos .icono {
     margin: 2%;
-    text-align: center; }
+    text-align: center;
+    color: #015958;
+    width: 30%; }
   .colorForm .colorcuadroForm {
     background-color: #015958;
     text-align: center;
     border-radius: 20px;
     width: 100%; }
     .colorForm .colorcuadroForm .formulario__cuadrosFormulario__cajas__caja {
+      text-decoration: none;
       background-color: #53A69D;
       border: 0;
       padding: 2%;
@@ -135,6 +144,16 @@ body {
       font-family: "Montserrat", sans-serif !important;
       border-radius: 10px;
       width: 100%; }
+
+/* PAGINA DE ERROR 404 */
+.errorBody {
+  background-color: #F6FEFF; }
+  .errorBody .errorConImg {
+    margin-top: 2%;
+    width: 100%; }
+    .errorBody .errorConImg .errorImg {
+      margin: 5%;
+      width: 50%; }
 
 .colorCuerpo {
   background-color: #F6FEFF; }
@@ -381,10 +400,12 @@ body {
         padding: 2%; }
     .colorForm .formulario__info__contactos .icono {
       margin: 2%;
-      text-align: center; }
+      text-align: center;
+      width: 50%; }
     .colorForm .colorcuadroForm {
       width: 40%; }
       .colorForm .colorcuadroForm .formulario__cuadrosFormulario__cajas__caja {
+        text-decoration: none;
         background-color: #6BBFBF;
         border: 0;
         padding: 2%;
@@ -398,17 +419,12 @@ body {
         width: 100%; }
   /*ERROR 404*/
   .errorBody {
-    background-color: #fb957c; }
+    background-color: #F6FEFF; }
     .errorBody .errorConImg {
       width: 100%; }
-      .errorBody .errorConImg .errorTit {
-        margin-top: 10%;
-        margin-bottom: 10%;
-        color: #2aa55d;
-        text-align: center; }
       .errorBody .errorConImg .errorImg {
         margin: 5%;
-        width: 100%; }
+        width: 50%; }
   /* LOCALES */
   .colorCuerpo .col-sm-8 .map {
     margin-top: 2%;
@@ -464,17 +480,3 @@ body {
       margin-bottom: 5%;
       margin-right: 5%;
       padding-top: 3%; } }
-
-/* PAGINA DE ERROR 404 */
-.errorBody {
-  background-color: #7ccbfb; }
-  .errorBody .errorConImg {
-    width: 100%; }
-    .errorBody .errorConImg .errorTit {
-      margin-top: 10%;
-      margin-bottom: 10%;
-      color: brown;
-      text-align: center; }
-    .errorBody .errorConImg .errorImg {
-      margin: 5%;
-      width: 100%; }
