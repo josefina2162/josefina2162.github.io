@@ -80,27 +80,30 @@
         
     <div class="col-sm-12 col-md-6 col-lg-6 pt-3 pb-3 p-1 colorcuadroForm"> <!-- Acá va a ir un formulario para que el usuario pueda enviarles una consulta y les puedan responder por mail o telefono-->
 
-            <form action="./error.html" target="_blank" >
+            <form action="https://formsubmit.co/joseezappettini@gmail.com " method="POST" target="_blank" >
                 
             <div class="container-fluid mx-auto d-flex flex-column align-items-center">
-            <input class="formulario__cuadrosFormulario__cajas__caja" type="text" placeholder="Nombre y Apellido" required>
+            <input class="formulario__cuadrosFormulario__cajas__caja" name="Nombre" type="text" placeholder="Nombre y Apellido" required>
             </div>
 
             <div class="container-fluid mx-auto d-flex flex-column align-items-center">
-                <input class="formulario__cuadrosFormulario__cajas__caja" type="email" placeholder="Email" required>
+                <input class="formulario__cuadrosFormulario__cajas__caja" name="Mail" type="email" placeholder="Email" required>
                 </div>
             
             <div class="container-fluid mx-auto d-flex flex-column align-items-center">
-                <input class="formulario__cuadrosFormulario__cajas__caja" type="tel" placeholder="Telefono" required>
+                <input class="formulario__cuadrosFormulario__cajas__caja" name="telefono" type="tel" placeholder="Telefono" required>
                 </div>
             
             <div class="container-fluid mx-auto d-flex flex-column align-items-center">
-               <textarea class="formulario__cuadrosFormulario__cajas__caja" placeholder= "Escribe tu consulta " name="" id="" cols="30" rows="10" required></textarea>
+               <textarea class="formulario__cuadrosFormulario__cajas__caja" placeholder= "Escribe tu consulta " name="mensaje" id="" cols="30" rows="10" required></textarea>
                 </div>
 
             <div class="container-fluid mx-auto d-flex flex-column align-items-center">
                <input class="formulario__cuadrosFormulario__cajas__caja" type="submit" name="" id="" value="Enviar">
             </div>
+
+            <input type="hidden" name="_next" value="https://doaalicia.netlify.app/pages/contacto.html">
+            <input type="hidden" name="_captcha" value="false">
                  </form>
                 </div>
     </section>
